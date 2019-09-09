@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+#box{
+   padding: 0 20px;
+   box-sizing: border-box;
+} 
+#box h2{
+    font-size: 18px;
+    color: #666;
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ee7600;
+    line-height: 50px;
+}
+#box table{
+    border-collapse: collapse;
+}
+#box table thead th{
+    height: 27px;
+    color: #666;
+    font-size: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+#box table thead th:nth-child(1){
+    width: 35px;
+}
+#box table thead th:nth-child(2){
+    width: 64px;
+}
+#box table thead th:nth-child(3){
+    width: 112px;
+}
+#box table thead th:nth-child(4){
+    width: 124px;
+}
+#box table thead th:nth-child(5){
+    width: 273px;
+}
+#box table thead th:nth-child(6){
+    width: 465px;
+}
+#box table tr td{
+    width: 50px;
+    border: 1px solid #ddd;
+    height: 44px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.inf {
+    margin-top: 16px;
+    width: 1080px;
+    /* display: flex; */
+    /* height: 36px; */
+    border: 2px solid #fff;
+}
+.inf .con{
+    display: flex;
+    height: 36px;
+    color: #666;
+    font-size: 12px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.inf p{
+    margin-left: 12px;
+}
+.inf .con div{
+    height: 36px;
+    width: 40px;
+    border: 1px  solid #fff;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    line-height: 36px;
+}
+.inf table tbody tr td .save{
+    width: 94px;
+    height: 28px;
+    background: #5bb75b;
+    color: #fff;
+    border: none;
+}
+.inf table tbody tr td .del{
+    width: 52px;
+    height: 28px;
+    background: #da4f49;
+    color: #fff;
+    border: none;
+}
+.inf table tbody tr td .edit{
+    width: 50px;
+    height: 28px;
+    background: #49afcd;
+    color: #fff;
+    border: none;
+}
+.pagebtns{
+    /* margin-left:  */
+    display: flex;
+    justify-content: center;
+    width: 410px;
+    margin-left: 700px;
+    margin-top: 16px;
+}
+.pagebtns input{
+    /* margin-left:  */
+    border: 1px solid #b8b8b8;
+    color: #000;
+    font-size: 10px;
+    text-align: center;
+    padding: 7px 11px;
+    background: #f5f5f5;
+}
+.pagebtns .numbtns .active{
+    background: #da4f49;
+    color: #fff;
+}
+.pagebtns .numbtns{
+    display: inline-block;
+    /* width: 300px; */
+}
+.pagebtns #prev{
+    margin-right: 10px;
+}
+.pagebtns #firstbtn{
+    border-radius: 4px 0 0 4px;
+    margin-right: 10px;
+}
+.pagebtns #nextbtn{
+    margin-left: 4px;
+    margin-right: 4px;
+}

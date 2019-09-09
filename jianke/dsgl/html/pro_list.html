@@ -1,0 +1,64 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-09-04 21:47:36
+ * @LastEditTime: 2019-09-06 10:52:03
+ * @LastEditors: Please set LastEditors
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/pro_list.css">
+    <title>商品列表页</title>
+</head>
+
+<body>
+    <div id="box">
+        <h2>商品列表管理</h2>
+        <div class="pro_listCont">
+            <div class="title">
+                <div class="allcheckbox"><input type="checkbox" id="allcheck"></div>
+                <div class="pro_inf">商品信息表</div>
+            </div>
+            <table class="pro_table">
+                <thead class="pro_title">
+                    <th><em></em></th>
+                    <th>商品id</th>
+                    <th>商品名称</th>
+                    <th>商品原价</th>
+                    <th>商品现价</th>
+                    <th>商品分类</th>
+                    <th>商品库存</th>
+                    <th>商品图片路径</th>
+                </thead>
+                <tbody class="pro_con">
+
+                </tbody>
+            </table>
+            <div class="table_btn clearfix">
+                <div class="delbtn">删除</div>
+                <div class="pagebtn">
+                    <input type="button" value="上一页" id="prev">
+                    <div class="page">
+                        <!-- <input type="button" value="1">
+                        <input type="button" value="2">
+                        <input type="button" value="3">
+                        <input type="button" value="4"> -->
+                    </div>
+                    <input type="button" value="下一页" id="next">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/pro_list.js">
+
+</script>
+
+</html>

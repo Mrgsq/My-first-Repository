@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#32a1e8,#8dcbf2,#fff);
+    .active{
+        border: 1px solid red;
+    }
+}
+#box{
+    width: 980px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    #head{
+        height: 34px;
+        .header_left{
+            clear: both;
+            margin-top: 50px;
+            h1{
+                width: 410px;
+                float: left;
+                margin-left: 48px;
+            }
+            div{
+                width: 150px;
+                float: right;
+                margin-right: 20px;
+                p{
+                    color: #fff;
+                }
+                a{
+                    // display: block;
+                    cursor: pointer;
+                    margin-left: 5px;
+                    width: 28px;
+                    height: 19px;
+                    border: 1px solid #ddd;
+                    color: #32a1e8;text-decoration: none;
+                    line-height: 28px;
+                    background: #fff;
+                }
+            }
+        }
+    }
+    #cont{
+        padding-bottom: 80px;
+        background: #fff;
+        width: 100%;
+        margin-top: 26px;
+        h3{
+            color: #32a1e8;
+            border-bottom: 1px solid #32a1e8;
+            height: 80px;
+            font-size: 18px;
+            line-height: 80px;
+            text-align: center;
+            font-weight: normal;
+            margin-bottom: 44px;
+        }
+        .inputs{
+            .checkinput{
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+            
+            
+            span{
+                width: 60px;
+                text-align: right;
+                margin-right: 10px;
+                font-size: 12px;
+                color: #666;
+                line-height: 45px;
+                display: inline-block;
+                font-size: 12px;
+            } 
+            .content{
+                position: relative;
+        
+                height: 45px;
+                display: inline-block;
+                h4{
+                position: absolute;
+                display: inline-block;
+                bottom: -20px;
+                font-size: 12px;
+                left: 5px;
+                font-weight: normal;
+                // display: none;
+                }
+                input{
+                    box-sizing: border-box;
+                    padding-left: 10px;
+                    border: 1px solid #ddd;
+                    height: 45px;
+                    color: #767676;
+                    font-size: 12px;
+                    width: 353px;
+                }
+                #yanzhengma{
+                    width: 190px;
+                }
+                img{
+                    vertical-align: top;
+                }
+                p{
+                    display: inline-block;
+                    width: 40px;
+                    font-size:12px;
+                    vertical-align: middle;
+                    color: #008fd2;
+                }
+                #duanxinbtn{
+                    width: 140px;
+                    border: 1px solid #ddd;
+                    font-size: 12px;
+                    color: #999;
+                    background: #fff;
+                    line-height: 43px;
+                    border-left: none;
+                }
+                #regbtn{
+                    color: #fff;
+                    font-size: 18px;
+                    background: #32a1e8;
+                    border-radius: 3px;
+                    border: none;
+                }
+            }
+        }
+        .agree{
+            text-align: center;
+            div{
+                vertical-align: middle;
+                display: inline-block;
+                #agreebox{
+                    background: #fff;
+                    border: 1px solid #000;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: #32a1e8;
+                font-size:12px;
+            }
+        }
+            
+        }
+    }
+}
+#guanggao{
+    position: fixed;
+    right: 0;
+    top: 87px;
+    z-index: 99;
+}

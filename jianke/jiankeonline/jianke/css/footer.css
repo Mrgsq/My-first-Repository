@@ -1,0 +1,153 @@
+#footer {
+  margin-top: 25px;
+  border-top: 2px solid #0691f9;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+#footer .footer_top {
+  width: 1210px;
+  margin: auto;
+  padding-top: 26px;
+}
+
+#footer .footer_top dl {
+  padding-left: 7px;
+  float: left;
+  margin-right: 95px;
+}
+
+#footer .footer_top dl dt {
+  line-height: 23px;
+  height: 23px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+#footer .footer_top dl dd {
+  font-size: 12px;
+  color: #666;
+  line-height: 28px;
+  height: 28px;
+}
+
+#footer .footer_top ul {
+  float: right;
+}
+
+#footer .footer_top ul li {
+  float: right;
+}
+
+#footer .footer_top ul .kefudianhua {
+  width: 262px;
+}
+
+#footer .footer_top ul .kefudianhua p:nth-child(1) {
+  font-size: 24px;
+  color: #3b3b3b;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 7px;
+}
+
+#footer .footer_top ul .kefudianhua p:nth-child(2), #footer .footer_top ul .kefudianhua p:nth-child(4) {
+  font-size: 20px;
+  color: #0691f9;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+}
+
+#footer .footer_top ul .kefudianhua p:nth-child(3), #footer .footer_top ul .kefudianhua p:nth-child(5) {
+  font-size: 12px;
+  color: #666;
+  height: 25px;
+  line-height: 25px;
+}
+
+#footer .footer_top ul .kefudianhua a {
+  color: #0691f9;
+  font-size: 12px;
+  line-height: 26px;
+  padding-left: 39px;
+  box-sizing: border-box;
+  display: block;
+  width: 110px;
+  height: 26px;
+  background: url(../img/indeximgs/jk2016.png) 0 -58px;
+}
+
+#footer .footer_top ul .shoujipintai, #footer .footer_top ul .guanzhuwomen {
+  width: 102px;
+  padding-left: 120px;
+}
+
+#footer .footer_top ul .shoujipintai p, #footer .footer_top ul .guanzhuwomen p {
+  line-height: 17px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+#footer .footer_top ul .shoujipintai a, #footer .footer_top ul .guanzhuwomen a {
+  position: relative;
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  padding-left: 30px;
+}
+
+#footer .footer_top ul .shoujipintai a em, #footer .footer_top ul .guanzhuwomen a em {
+  top: 5px;
+  left: 0;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../img/indeximgs/jk2016.png);
+}
+
+#footer .footer_top ul .shoujipintai a span, #footer .footer_top ul .guanzhuwomen a span {
+  font-size: 12px;
+  color: #666;
+}
+
+#footer .footer_top ul .shoujipintai a:hover span, #footer .footer_top ul .guanzhuwomen a:hover span {
+  color: #0691f9;
+}
+
+#footer .footer_bottom {
+  box-sizing: border-box;
+  padding-top: 19px;
+  background: #fff;
+  height: 225px;
+}
+
+#footer .footer_bottom p {
+  line-height: 28px;
+  height: 28px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+#footer .footer_bottom .policeLogo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#footer .footer_bottom .policeLogo a {
+  margin-right: 11px;
+  width: 120px;
+  height: 50px;
+  display: block;
+}
+
+#footer .footer_bottom .policeLogo a:nth-last-child(1) {
+  margin-right: 0;
+}

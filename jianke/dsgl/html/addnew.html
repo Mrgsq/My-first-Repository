@@ -1,0 +1,49 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-08-23 15:27:23
+ * @LastEditTime: 2019-09-06 10:54:07
+ * @LastEditors: Please set LastEditors
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/addnew.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        <h2>用户信息管理</h2>
+        <div id="newuser">
+            <div>
+                <label for="" style="text-align: right;width: 100px;">用户名：</label>
+                <input type="text" id="name" placeholder="请输入用户名">
+                <span class="res">长度5-19位数字字母或汉字</span>
+            </div>
+            <div>
+                <label for="password" style="text-align: right;width: 100px;">密码：</label>
+                <input type="text" id="password" placeholder="请输入密码">
+                <span class="res">包含数字字母下划线5-17位</span>
+            </div>
+            <div>
+                <label for="email" style="text-align: right;width: 100px;"> 电话：</label>
+                <input type="text" id="phonenum" placeholder="请输入电话号码" maxlength="11">
+                <span class="res">输入正确的电话号码</span>
+            </div>
+            <input type="button" value="添加用户" id="addbtn">
+            <input type="button" value='取消' id="quxiao">
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/addnew.js">
+
+</script>
+
+
+</html>

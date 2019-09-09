@@ -1,0 +1,153 @@
+.search_nav{
+height: 80px;
+padding: 35px 0 15px;
+width: 100%;
+.logo{
+    // height: 59px;
+    // width: 215px;
+    margin-right: 80px;
+    // overflow: hidden;
+    // // img{
+    // //     height: 100%;
+    // //     width: 100%;
+    // // }
+    position: relative;
+    .zhengjian{
+        height: 40px;
+        top: 50px;
+        position: absolute;
+         overflow: hidden;
+        .logo_bottom{
+            transition: transform 0.5s;
+        li{
+            font-size: 12px;
+            color: #666;
+            // display: none;
+            height: 30px;
+            line-height: 30px;
+        }
+        li:hover{
+            color: #0691f9;
+        }
+    }
+    }
+    
+}
+.search_cont{
+
+    width: 1210px;
+    margin: auto;
+   
+}
+.search{
+    width: 510px;
+    height: 40px;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid #0691f9;
+    padding-left: 40px;
+    em{
+      position: absolute;
+      width: 36px;
+      height: 36px;
+        left: 0;
+        top: 0;
+        text-align: center;
+        line-height: 36px;
+    }
+    #searchtext{
+        height: 36px;
+        width: 366px;
+    }
+    #searchbtn{
+        width: 100px;
+        height: 36px;
+        border: none;
+        background: #0691f9;
+        color: #fff;
+    }
+    .searchbottom{
+        margin-left: -36px;
+        height: 30px;
+        line-height: 30px;
+        .searchlist {
+            li{ color: #666;
+                float: left;
+                font-size: 12px;
+                margin-right: 5px;
+                a{
+                    color: #666;
+                }
+                a:hover{
+                    color: #0691f9;
+                }
+            }
+        }
+    }
+}
+
+p{
+    margin-left: 12px;
+    float: left;
+    width: 30px;
+    line-height: 20px;
+    a{
+        font-size: 12px;
+        color: #666;
+        line-height: 20px;
+    }
+    a:hover{
+        color: #0691f9;
+    }
+}
+.wuliu{
+    float: left;
+    height: 30px;
+    width: 105px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    margin-left: 9px;
+    text-align: center;
+    cursor: pointer;
+    // em{
+    //     // height: 14px;
+    //     // width: 13px;
+    //     // display: inline-block;
+    //     // background: url(../img/indeximgs/che.png)
+    // }
+    a{
+        font-size: 12px;
+        color: #666;
+    }
+}
+.wuliu:hover a{
+    color: #0691f9;
+}
+.dingdan{
+    float: left;
+    height: 30px;
+    width: 105px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    margin-left: 9px;
+    text-align: center;
+    cursor: pointer;
+    // em{
+    //     // display: inline-block;
+    //     // height: 14px;
+    //     // width: 13px;
+    //     // background: url(../img/indeximgs/dingdan.png)
+    // }
+    a{
+        font-size: 12px;
+        color: #666;
+    }
+}
+.dingdan:hover a{
+    color: #0691f9;
+}
+.saoma{
+    float: right;
+    margin-top: -30px;
+}
+}

@@ -1,0 +1,574 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html #box, body #box {
+  width: 100%;
+}
+
+html #box #contain, body #box #contain {
+  width: 100%;
+}
+
+html #box #contain .contain_nav, body #box #contain .contain_nav {
+  width: 100%;
+  background: #1369c0;
+}
+
+html #box #contain .contain_nav .nav_cont, body #box #contain .contain_nav .nav_cont {
+  width: 1210px;
+  height: 40px;
+  margin: auto;
+  margin-top: 18px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list, body #box #contain .contain_nav .nav_cont .nav_left_list {
+  position: relative;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top, body #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top {
+  width: 190px;
+  height: 40px;
+  background: #0f54b3;
+  text-align: center;
+  line-height: 40px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top a, body #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top a {
+  font-size: 14px;
+  color: #fff;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top a:hover, body #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top a:hover {
+  text-decoration: underline;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top em, body #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top em {
+  width: 10px;
+  height: 6px;
+  display: inline-block;
+  background: url(../img/listimgs/jk_2014.png) -7px -48px;
+  transition: all 0.3s;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top:hover em, body #box #contain .contain_nav .nav_cont .nav_left_list .nav_left_list_top:hover em {
+  background-position: -7px -54px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc, body #box #contain .contain_nav .nav_cont .nav_left_list .mc {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item {
+  height: 28px;
+  line-height: 28px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 190px;
+  background: rgba(0, 0, 0, 0.692);
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item dl dt, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item dl dt {
+  font-size: 12px;
+  color: #2586c7;
+  float: left;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item dl dd, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item dl dd {
+  font-size: 10px;
+  cursor: pointer;
+  color: #aaa;
+  float: left;
+  margin-right: 7px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont {
+  position: absolute;
+  background: #fff;
+  display: none;
+  width: 600px;
+  height: 508px;
+  border: 1px solid #cacaca;
+  box-sizing: border-box;
+  padding: 0 30px;
+  left: 190px;
+  top: 0;
+  border-left: none;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top {
+  padding-top: 30px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top h4, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top h4 {
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top img, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top img {
+  margin-top: 30px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top .item_list, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top .item_list {
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top .item_list li, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top .item_list li {
+  line-height: 24px;
+  font-size: 12px;
+  float: left;
+  color: #666;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top .item_list li:hover, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item .list-cont .list_top .item_list li:hover {
+  color: #0691f9;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item:hover dt, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item:hover dt {
+  margin-left: 10px;
+  color: #000;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_left_list .mc .item:after, body #box #contain .contain_nav .nav_cont .nav_left_list .mc .item:after {
+  display: block;
+  content: '';
+  overflow: hidden;
+  clear: both;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_list, body #box #contain .contain_nav .nav_cont .nav_list {
+  margin-left: 2px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .nav_list_li, body #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .nav_list_li {
+  height: 40px;
+  float: left;
+  line-height: 40px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .nav_list_li a, body #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .nav_list_li a {
+  font-size: 14px;
+  color: #fff;
+  padding: 0 18px;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .wutong, body #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .wutong {
+  position: relative;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .wutong p, body #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .wutong p {
+  width: 32px;
+  height: 18px;
+  top: -5px;
+  right: 0;
+  background: url(../img/listimgs/jk_2014.png) -96px -50px;
+  position: absolute;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .nav_list_li:hover, body #box #contain .contain_nav .nav_cont .nav_list .nav_list_cont .nav_list_li:hover {
+  background: #0f54b3;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_right_tel, body #box #contain .contain_nav .nav_cont .nav_right_tel {
+  width: 205px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+html #box #contain .contain_nav .nav_cont .nav_right_tel img, body #box #contain .contain_nav .nav_cont .nav_right_tel img {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+html #box #contain .main, body #box #contain .main {
+  width: 1210px;
+  margin: auto;
+  padding-top: 27px;
+  margin-top: 12px;
+}
+
+html #box #contain .main .left_nav, body #box #contain .main .left_nav {
+  float: left;
+}
+
+html #box #contain .main .left_nav .browse, body #box #contain .main .left_nav .browse {
+  border: 1px solid #ddd;
+}
+
+html #box #contain .main .left_nav .browse h2, body #box #contain .main .left_nav .browse h2 {
+  width: 178px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #666;
+  background: #e8e8e8;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 16px;
+}
+
+html #box #contain .main .left_nav .browse #VistedProducts, body #box #contain .main .left_nav .browse #VistedProducts {
+  width: 178px;
+  padding: 10px 14px 0;
+  box-sizing: border-box;
+}
+
+html #box #contain .main .left_nav .browse #VistedProducts .Visted_pro, body #box #contain .main .left_nav .browse #VistedProducts .Visted_pro {
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+html #box #contain .main .left_nav .browse #VistedProducts .Visted_pro a img, body #box #contain .main .left_nav .browse #VistedProducts .Visted_pro a img {
+  width: 150px;
+  height: 150px;
+}
+
+html #box #contain .main .left_nav .browse #VistedProducts .Visted_pro p, body #box #contain .main .left_nav .browse #VistedProducts .Visted_pro p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+html #box #contain .main .left_nav .browse #VistedProducts .Visted_pro span, body #box #contain .main .left_nav .browse #VistedProducts .Visted_pro span {
+  color: #e4395b;
+  font-size: 12px;
+}
+
+html #box #contain .main .left_nav .hot-pro, body #box #contain .main .left_nav .hot-pro {
+  width: 178px;
+  margin-top: 18px;
+  border: 1px solid #ddd;
+}
+
+html #box #contain .main .left_nav .hot-pro h2, body #box #contain .main .left_nav .hot-pro h2 {
+  width: 178px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #666;
+  background: #e8e8e8;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 16px;
+}
+
+html #box #contain .main .left_nav .hot-pro .product-list, body #box #contain .main .left_nav .hot-pro .product-list {
+  padding: 0 14px;
+  box-sizing: border-box;
+}
+
+html #box #contain .main .left_nav .hot-pro .product-list li, body #box #contain .main .left_nav .hot-pro .product-list li {
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+html #box #contain .main .left_nav .hot-pro .product-list li a img, body #box #contain .main .left_nav .hot-pro .product-list li a img {
+  width: 150px;
+  height: 150px;
+}
+
+html #box #contain .main .left_nav .hot-pro .product-list li p, body #box #contain .main .left_nav .hot-pro .product-list li p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+html #box #contain .main .left_nav .hot-pro .product-list li span, body #box #contain .main .left_nav .hot-pro .product-list li span {
+  color: #e4395b;
+  font-size: 12px;
+}
+
+html #box #contain .main .list_right, body #box #contain .main .list_right {
+  float: right;
+  width: 1020px;
+}
+
+html #box #contain .main .list_right .pro_list .replace .price-sort, body #box #contain .main .list_right .pro_list .replace .price-sort {
+  float: left;
+}
+
+html #box #contain .main .list_right .pro_list .replace .price-sort input, body #box #contain .main .list_right .pro_list .replace .price-sort input {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #1b93ca;
+  background: #666;
+  border-radius: 3px;
+}
+
+html #box #contain .main .list_right .pro_list .replace .price-sort #chaxun, body #box #contain .main .list_right .pro_list .replace .price-sort #chaxun {
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: -4px 4px 0 0 #ccc;
+  background: #e4393c;
+  color: #fff;
+  transition: transform 0.2s;
+}
+
+html #box #contain .main .list_right .pro_list .replace .price-sort #chaxun:active, body #box #contain .main .list_right .pro_list .replace .price-sort #chaxun:active {
+  transform: translateX(-4px) translateY(4px);
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort, body #box #contain .main .list_right .pro_list .replace .pro-sort {
+  border-radius: 5px;
+  margin-left: 300px;
+  width: 110px;
+  height: 30px;
+  cursor: pointer;
+  border: #ddd;
+  background: #0691f9;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .sort_title, body #box #contain .main .list_right .pro_list .replace .pro-sort .sort_title {
+  color: #fff;
+  line-height: 30px;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name, body #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name {
+  border-radius: 5px;
+  display: none;
+  padding: 5px 0;
+  top: 30px;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.726);
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li, body #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li {
+  line-height: 30px;
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li a, body #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li a {
+  color: #fff;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li::after, body #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li::after {
+  content: '';
+  height: 1px;
+  width: 0;
+  margin: auto;
+  background: #0691f9;
+  transition: all 0.5s;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li:hover, body #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li:hover {
+  background: #fff;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li:hover a, body #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li:hover a {
+  color: #000;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li:hover::after, body #box #contain .main .list_right .pro_list .replace .pro-sort .pro-sort-name li:hover::after {
+  width: 100%;
+}
+
+html #box #contain .main .list_right .pro_list .replace .pro-sort:hover .pro-sort-name, body #box #contain .main .list_right .pro_list .replace .pro-sort:hover .pro-sort-name {
+  display: block;
+}
+
+html #box #contain .main .list_right .pro_list .replace #paixu, body #box #contain .main .list_right .pro_list .replace #paixu {
+  width: 80px;
+  height: 30px;
+  background: #be1c1c;
+  border: none;
+  margin-left: 50px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con, body #box #contain .main .list_right .pro_area .pro_con {
+  height: 1600px;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li, body #box #contain .main .list_right .pro_area .pro_con li {
+  width: 246px;
+  height: 380px;
+  margin-top: 20px;
+  cursor: pointer;
+  float: left;
+  margin-right: 5px;
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .imgbox a, body #box #contain .main .list_right .pro_area .pro_con li .imgbox a {
+  margin: auto;
+  margin-top: 30px;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .imgbox a img, body #box #contain .main .list_right .pro_area .pro_con li .imgbox a img {
+  height: 200px;
+  width: 200px;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .pro_inf .nowprice, body #box #contain .main .list_right .pro_area .pro_con li .pro_inf .nowprice {
+  font-size: 14px;
+  color: #e4393c;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .pro_inf s, body #box #contain .main .list_right .pro_area .pro_con li .pro_inf s {
+  font-size: 12px;
+  color: #aeacac;
+  text-decoration: line-through;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .pro_inf p, body #box #contain .main .list_right .pro_area .pro_con li .pro_inf p {
+  text-indent: 24px;
+  position: relative;
+  height: 40px;
+  padding-top: 6px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #666;
+  padding-top: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .pro_inf p em, body #box #contain .main .list_right .pro_area .pro_con li .pro_inf p em {
+  top: 8px;
+  left: 0;
+  position: absolute;
+  display: inline-block;
+  width: 26px;
+  height: 14px;
+  background: url(../img/listimgs/rx.png);
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .pro_inf .checkinf, body #box #contain .main .list_right .pro_area .pro_con li .pro_inf .checkinf {
+  margin-top: 15px;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li .pro_inf .checkinf a, body #box #contain .main .list_right .pro_area .pro_con li .pro_inf .checkinf a {
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  width: 94px;
+  height: 26px;
+  background: #e4393c;
+  text-align: center;
+  line-height: 26px;
+}
+
+html #box #contain .main .list_right .pro_area .pro_con li:nth-child(4n), body #box #contain .main .list_right .pro_area .pro_con li:nth-child(4n) {
+  margin-right: 0;
+}
+
+html #box #contain .main .list_right .pro_pages, body #box #contain .main .list_right .pro_pages {
+  width: 900px;
+  background: #fff;
+  height: 100px;
+  float: right;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn, body #box #contain .main .list_right .pro_pages .pagebtn {
+  height: 27px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 0;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn #prevpage, body #box #contain .main .list_right .pro_pages .pagebtn #prevpage {
+  width: 79px;
+  height: 25px;
+  border: 1px solid #d7d7d7;
+  font-size: 14px;
+  color: #666;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .pageNums, body #box #contain .main .list_right .pro_pages .pagebtn .pageNums {
+  margin-left: 8px;
+  display: inline-block;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .pageNums input, body #box #contain .main .list_right .pro_pages .pagebtn .pageNums input {
+  margin-right: 8px;
+  height: 25px;
+  width: 27px;
+  color: #666;
+  border: 1px solid #d7d7d7;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .pageNums .active, body #box #contain .main .list_right .pro_pages .pagebtn .pageNums .active {
+  border-color: #f34c0a;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn #nextpage, body #box #contain .main .list_right .pro_pages .pagebtn #nextpage {
+  width: 79px;
+  height: 25px;
+  border: 1px solid #d7d7d7;
+  font-size: 14px;
+  color: #ccc;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .pagestotal, body #box #contain .main .list_right .pro_pages .pagebtn .pagestotal {
+  font-size: 14px;
+  color: #666;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .pagestotal .pagetotalNum, body #box #contain .main .list_right .pro_pages .pagebtn .pagestotal .pagetotalNum {
+  font-size: 10px;
+  color: #666;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .toPage, body #box #contain .main .list_right .pro_pages .pagebtn .toPage {
+  margin-left: 35px;
+  height: 27px;
+  display: inline-block;
+  line-height: 27px;
+  font-size: 0;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .toPage span, body #box #contain .main .list_right .pro_pages .pagebtn .toPage span {
+  font-size: 14px;
+  display: inline-block;
+  line-height: 27px;
+  height: 27px;
+  color: #666;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .toPage span #getpage, body #box #contain .main .list_right .pro_pages .pagebtn .toPage span #getpage {
+  width: 36px;
+  height: 25px;
+  border: 1px solid #d7d7d7;
+}
+
+html #box #contain .main .list_right .pro_pages .pagebtn .toPage #getpageBtn, body #box #contain .main .list_right .pro_pages .pagebtn .toPage #getpageBtn {
+  width: 60px;
+  height: 25px;
+  border: 1px solid #d7d7d7;
+  font-size: 14px;
+  color: #666;
+  background: #f2f2f2;
+  margin-left: 20px;
+}

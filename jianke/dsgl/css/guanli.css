@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: #1f262d;
+}
+#header{
+    height: 60px;
+    width: 100%;
+    /* background: #ccc; */
+}
+#footer{
+    height: calc(100% - 60px);
+    width: 100%;
+    clear: both;
+}
+#footer .sidebar{
+    height: 100%;
+    width:220px;
+    background: #2E363F;;
+    float: left;
+}
+#footer .content{
+    width: calc(100% - 220px);
+    height: 100%;
+    background: #ccc;
+    float: left;
+}
+#footer .sidebar ul{
+    width: 100%;
+}
+#footer .sidebar ul li{
+    list-style: none;
+    /* height: 38px; */
+    width: 100%;
+    border-top: 1px solid #37414b;
+    border-bottom: 1px solid #1f262d;
+    /* text-align: center; */
+    line-height: 38px;
+    /* position: relative; */
+}
+#footer .sidebar ul .active{
+    background: #27a9e3;
+}
+#footer .sidebar ul li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 38px;
+    font-size: 12px;
+    color: #999;
+    box-sizing: border-box;
+    padding-left: 45px;
+}
+#footer .sidebar ul li a i{
+    float: right;
+    margin-right: 22px;
+}
+#footer .sidebar ul li ul{
+    display: none;
+    /* position: absolute; */
+    /* top: 38px;
+    left: 0; */
+    background: #1e242b;
+    /* height: 0; */
+    /* overflow: hidden; */
+}
+#footer .sidebar ul li ul li{
+    font-size: 12px;
+    color: #939da8;
+    box-sizing: border-box;
+    padding-left: 30px;
+    cursor: pointer;
+}
+#footer .sidebar ul li ul .active{
+    background: #28b779;
+}
+#footer .sidebar ul li ul li i{
+    margin-right: 16px;
+}
+.content .content_header{
+    height: 38px;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    /* padding-left: 10px; */
+}
+.content .content_header i{
+    margin-left: 10px;
+}
+.content .content_header span{
+    margin-left: 8px;
+    font-size: 10px;
+    color: #666;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+#header h2{
+    width: 220px;
+    /* float: left; */
+    color: #08c;
+    height: 100%;
+    line-height: 60px;
+}
+#header #user-nav{
+    clear: both;
+    height: 100%;
+    display: flex;
+}
+#header #user-nav a:hover{
+    background: #000;
+}
+#header #user-nav .welcome{
+    width: 150px;
+    height: 100%;
+    /* float: left; */
+    position: relative;
+    border-left: 1px solid #2e363f;
+    border-right: 1px solid #000;
+}
+#header #user-nav .welcome .usermenu{
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+#header #user-nav .welcome .usermenu .usermenu_list{
+    background: #fff;
+
+}
+#header #user-nav .welcome .usermenu .usermenu_list .usermenu_list{
+    height: 20px;
+    width: 100px;
+}
+#header #user-nav .welcome a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #999;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 12px;
+
+}
+#header #user-nav .out{
+    width: 100px;
+    height: 100%;
+    
+    border-left: 1px solid #2e363f;
+    border-right: 1px solid #000;
+}
+#header #user-nav .out a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: #939da8;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 12px;
+}
+#header .header-right{
+    display: flex;
+    height: 100%;
+}
+#usersearch{
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    /* padding-top: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#usersearch #search{
+    background-color: #47515b;
+    color: #fff;
+    width: 200px;
+    border: none;
+    height: 29px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+#usersearch #searchbtn{
+    height: 29px;
+    width: 33px;
+    background: url(../img/search.png);
+    border: none;
+}

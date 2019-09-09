@@ -1,0 +1,260 @@
+#box{
+    width: 100%;
+    .login_header{
+        height: 90px;
+        width: 100%;
+        background: #fff;
+        .main_content{
+            width: 940px;
+            margin: auto;
+            padding: 30px 20px 20px;
+            .header_left{
+                float: left;
+                width: 440px;
+            }
+            .header_right{
+                float: right;
+                span{
+                    font-size: 12px;
+                }
+                a{
+                    display: inline-block;
+                    width:82px;
+                    height: 32px;
+                    line-height: 32px;
+                    box-sizing: border-box;
+                    border: 1px solid #ddd;
+                    color: #0d9afd;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .login_article{
+        height: 611px;
+        background: #498af2;
+        .login_article_main{
+            width: 940px;
+            margin: auto;
+            padding:40px 20px;
+            .aside{
+                img{
+                    margin-top: 35px;
+                }
+            }
+            .login_form{
+                margin-top: 35px;
+                .login_form_cont{
+                    position: relative;
+                    width: 370px;
+                height: 496px;
+                border-radius: 3px;
+                background: #fff;
+                .tab_login{
+                    padding: 10px 35px 0;
+                    font-size: 0;
+                    text-align: center;
+                    border-bottom: 1px solid #edeef0;
+                    .tab_login_item{
+                        display: inline-block;
+                        width: 50%;
+                        line-height: 50px;
+                        font-size: 14px;
+                        font-weight: 700px;
+                        vertical-align: top;
+                        cursor:pointer;
+                        box-sizing: border-box;
+                    }
+                    .active{
+                        border-bottom: 1px solid #0d8dfd;
+                    }
+                }
+                .login_main_cont{
+                    display: none;
+                    top: 50px;
+                    left: 0;
+                    // position: absolute;
+                    padding: 0 35px;
+                    .login_main_valid{
+                        width: 100%;
+                        .form_item{
+                            margin-top: 20px;
+                            .content{
+                                input{
+                                    text-indent: 12px;
+                                    width: 100%;
+                                    height: 45px;
+                                    border: 1px solid #ddd;
+                                }
+                                span{
+                                    font-size: 12px;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                        .imgCode{
+                            .content{
+                                // display: flex;
+                                width: 100%;
+                                height: 45px;
+                                font-size: 0;
+                                .form_imgCode{
+                                    // display: flex;
+                                    height: 45px;
+                                    input{
+                                        height: 43px;
+                                    display: inline-block;
+                                    width: calc(100% - 130px);
+                                }
+                                .imgCode_box{
+                                    width: 128px;
+                                    display: inline-block;
+                                    cursor: pointer;
+                                    height: 45px;
+                                    img{
+                                        width: 100%;
+                                    height: 100%;
+                                }
+                                } 
+                               
+                                }
+                             
+                            } 
+                            .form_messge{
+                                  font-size: 12px;
+                                  margin-left: 10px;
+                                  display: none;
+                              } 
+                        } 
+                        .phoneCode{
+                            font-size: 0;
+                                    .content{
+                                        input{
+                                            width: calc(100% - 130px);
+                                            height: 43px;
+                                        }
+                                        .phoneCodebtn{
+                                            display: inline-block;
+                                            width: 128px;
+                                            border: none;
+                                            background: #ddd;
+                                            color: #666;
+                                            height: 45px;
+                                            line-height: 45px;
+                                            vertical-align: top;
+                                        }
+                                    } 
+                                    .form_messge{
+                                        font-size: 12px;
+                                        padding-left: 10px;
+                                    }
+                        }
+                        .loginbtn{
+                            a{
+                                margin-top: 30px;
+                                height: 45px;
+                                line-height: 45px;
+                                background: #0d8dfd;
+                                width: 100%;
+                                display: block;
+                                font-weight: 500;
+                                color: #fff;
+                                border-radius: 4px;
+                                text-align: center;
+                                font-size: 20px;
+                            }
+                        }
+                        .agree{
+                            margin: 0;
+                            padding: 5px 0;
+                            font-size: 12px;
+                            line-height: 32px;
+                            #protocol{
+                                width: 20px;
+                                height: 32px;
+                                vertical-align: top;
+                            }
+                            a{
+                                color: #0d8dfd;
+                            }
+                        }
+                        .other_login{
+                            .login_title{
+                                font-size: 12px;
+                                color: #666;
+                                position: relative;
+                                text-align: center;
+                            }
+                            .login_title:after{
+                                // display: block;
+                                content: '';
+                                width: 70px;
+                                position: absolute;
+                                top: 50%;
+                                height: 1px;
+                                right: 0;
+                                background: #ddd;
+                            }
+                            .login_title::before{
+                                // display: block;
+                                content: '';
+                                width: 70px;
+                                position: absolute;
+                                top: 50%;
+                                left: 0;
+                                height: 1px;
+                                background: #ddd;
+                            }
+                            .other_login_btn{
+                                text-align: center;
+                                font-size: 0;
+                                .qq_login{
+                                    margin-top: 15px;
+                                    display: inline-block;
+                                    margin-right: 10px;
+                                    width: 32px;
+                                    height: 32px;
+                                    cursor: pointer;
+                                    background: url(../img/loginimgs/login_icons.png) -53px -280px;
+                                }
+                                .qq_login:hover{
+                                    background-position: -53px -333px;
+                                }
+                                .weibo_login{
+                                    cursor: pointer;
+                                    display: inline-block;
+                                    width: 32px;
+                                    height: 32px;
+                                    background: url(../img/loginimgs/login_icons.png) -99px -280px;
+                                }
+                                .weibo_login:hover{
+                                    background-position: -99px -333px; 
+                                }
+                            }
+                           
+                        } 
+                        .kefu{
+                               font-size: 12px;
+                               text-align: center;
+                               line-height: 42px;
+                               a{
+                                   color: #0d8dfd;
+                               }
+                           }
+                    }
+                }
+                }
+                
+            }
+        }
+    }
+    .login_footer{
+        padding: 30px 0 20px;
+        p{
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+            line-height: 25px;
+        }
+    }
+}

@@ -1,0 +1,279 @@
+.header{
+    width: 100%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f5f5f5;
+    .header_nav{
+        width: 1210px;
+        margin: auto;
+        height: 35px;
+        clear: both;
+        font-size: 12px;
+        line-height: 35px;
+        color: #666;
+        .header_nav_left{
+            float: left;
+            p{
+                float: left;
+            }
+            a{
+                float: left;
+                color: #666;
+            }
+            a:hover{
+                color: rgb(62, 146, 255);
+            }
+            #header_login{
+                margin-left: 42px;
+            }
+            #header_reg{
+                margin-left: 30px;
+            }
+        }
+        .header_nav_right{
+            float: right;
+            .nav_list{
+                clear: both;
+                height: 35px;
+                li{
+                    text-align: center;
+                    float: left;
+                    margin-right: 14px;
+                    height: 35px;
+                    .header_li{
+                        color: #666;
+                        vertical-align: middle;
+                    }
+                    .header_li:hover{
+                        color: rgb(62, 146, 255);
+                    }
+                    span{
+                        margin-left: 4px;
+                        // vertical-align: middle;
+                        transition: transform 0.5s;
+                    }
+                    i{
+                       margin-right: 5px;
+                    }
+                } 
+                li:hover{
+                    background: #fff;
+                    border-bottom: 1px solid #fff;
+                }
+                .yaodian:hover{
+                    border-bottom: none;
+                }
+                li:hover span img{
+                    transform: rotate(180deg);
+                    
+                }
+                .kefu{ 
+                    padding: 0 8px;
+                    position: relative;
+                    .kefu_list{
+                        display: none;
+                        width: 100%;
+                        position: absolute;
+                        top: 35px;
+                        left: 0;
+                         background: #fff;
+                         box-sizing: border-box;
+                         border: 1px solid #dddddd;
+                        div{
+                            a{
+                                color: #666;
+                            }
+                            a:hover{
+                                color: #0691f9;
+                            }
+                        }
+                    }
+                }
+                .kefu:hover .kefu_list{
+                    display: block;
+                }
+                .shouji{
+                    position: relative;
+                        width: 88px;
+                        margin: 0;
+                        .jk_erweima{
+                            display: none;
+                            position: absolute;
+                            width: 200px;
+                            background: #fff;
+                            border: 1px solid #ddd;
+                            z-index: 200;
+                            top: 35px;
+                            left: -100px;
+                            box-sizing: border-box;
+                            padding:10px;
+                            .jk_net{
+                                width: 100%;
+                                border-bottom: 1px dashed #ccc;
+                                dt{
+                                    float: left;
+                                    width: 81px;
+                                    height: 81px;
+                                    
+                                }
+                                dd{
+                                    width: 96px;
+                                    float: right;
+                                    // width: 
+                                    h3{
+                                        font-size: 14px;
+                                        color: #444;
+                                    }
+                                    .xiadan{
+                                        font-size: 14px;
+                                        color: rgb(211, 30, 30);
+                                    }
+                                    .net_logo{
+                                        .ios_net{
+                                            width: 21px;
+                                            height: 25px;
+                                            display: inline-block;
+                                            transition: 0.5s all;
+                                            background: url(../img/indeximgs/icon_phone.jpg) -85px 0 no-repeat;
+                                        }
+                                        .android_net{
+                                            transition: 0.5s all;
+                                            width: 22px;
+                                            height: 25px;
+                                            display: inline-block;
+                                            background: url(../img/indeximgs/icon_phone.jpg) -111px 0 no-repeat;
+                                        }
+                                        .ios_net:hover{
+                                            background-position:-85px -30px; 
+                                        }
+                                        .android_net:hover{
+                                            background-position: -111px -30px; 
+                                        }
+                                    }
+                                }
+                            }
+                            .inter{
+                                dt{
+                                    em{
+                                        width: 81px;
+                                        height: 81px;
+                                        display: inline-block;
+                                        background: url(../img/indeximgs/top_ewm.jpg);
+                                        // background-position: 
+                                    }
+                                }
+                            }
+                            .weixin{
+                                dt{
+                                    em{
+                                        width: 81px;
+                                        height: 81px;
+                                        display: inline-block;
+                                        background: url(../img/indeximgs/icon_phone.jpg);
+                                        // background-position:  
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .shouji:hover{
+                        .jk_erweima{
+                            display: block;
+                        }
+                    }
+                    .nav{
+                        width: 86px;
+                        position: relative;
+                        .header_nav_cont{
+                            display: none;
+                            position: absolute;
+                            top: 38px;
+                            right: 0;
+                            width:1100px;
+                                height: 400px;
+                                background: #fff;
+                                padding-left: 50px;
+                                padding-top: 30px;
+                                z-index: 1200;
+                            .header_nav_list{
+                                float: left;
+                                text-align: left;
+                                box-sizing: border-box;
+                                border-right: 1px solid #ccc;
+                                margin-right: 70px;
+                                dt{
+                                    font-size: 18px;
+                                    color: rgb(60, 101, 189);
+                                }
+                                dd{
+                                    height: 22px;
+                                    a{
+                                        // display: block;
+                                        padding: 5px 3px;
+
+                                            color: #666;
+                                    }
+                                    a:hover{
+                                        background: rgb(59, 53, 143);
+                                        border-radius: 2px; 
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            .jiankang{
+                                width: 200px;
+                                
+                            }
+                            .pingdao{
+                                width: 150px;
+                            }
+                            .fuwu{
+                                width: 150px;
+                            }
+                            .shangcheng{
+                                width: 180px;
+                            }
+                        }
+                    }
+                    .nav:hover .header_nav_cont{
+                        display: block;
+                    }
+                    .car{
+                        padding: 0 8px;
+                    }
+                
+                    .jianke{
+                        padding: 0 8px;
+                        position: relative;
+                        .jianke_list{
+                            position: absolute;
+                            width: 100%;
+                            border: 1px solid #ddd;
+                            box-sizing: border-box;
+                            top: 35px;
+                            left: 0;
+                            display: none;
+                            z-index: 2200;
+                            // background: #fff;
+                            div{
+                                background: #fff;
+                                a{
+                                color: #666;
+                            }
+                            a:hover{
+                                color: #0691f9;
+                            } 
+                            }
+                           
+                        }
+                    }
+                    .jianke:hover .jianke_list{
+                        display: block;
+                    }
+                    .yaodian:hover{
+                        background: #f5f5f5;
+                    }
+            }
+        }
+    }
+}

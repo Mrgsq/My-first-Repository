@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+#box{
+   padding: 0 20px;
+   box-sizing: border-box;
+} 
+#box h2{
+    font-size: 18px;
+    color: #666;
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ee7600;
+    line-height: 50px;
+}
+#newuser div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #666;
+    /* display: flex; */
+    width: 500px;
+    /* justify-content: space-between; */
+    /* position: relative; */
+}
+#newuser span{
+    /* position: absolute; */
+    right: -20px;
+}
+#newuser div input{
+    width: 180px;
+    height: 20px;
+    padding-left: 5px;
+}
+/* #newuser div lable{
+    width: 100px;
+    text-align: right;
+} */
+#newuser #addbtn{
+    padding: 5px;
+    background: #38aaa1;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#newuser #quxiao{
+    padding: 5px;
+    background: #28859c;
+    border: none;
+    cursor: pointer;
+}

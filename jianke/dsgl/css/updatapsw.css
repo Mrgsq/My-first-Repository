@@ -1,0 +1,41 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+#box{
+   padding: 0 20px;
+   box-sizing: border-box;
+} 
+#box h2{
+    font-size: 18px;
+    color: #666;
+    height: 50px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ee7600;
+    line-height: 50px;
+}
+.cont div{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cont div input{
+    height: 20px;
+}
+.cont div label{
+    width: 100px;
+    text-align: right;
+}
+.cont div:nth-child(3) input{
+   height: 30px;
+   border: none;
+   width: 50px;
+   background: rgb(30, 163, 30);
+   color: #fff;
+   cursor: pointer;
+}

@@ -1,0 +1,84 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-08-23 21:43:50
+ * @LastEditTime: 2019-09-06 10:50:04
+ * @LastEditors: Please set LastEditors
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/goodmanage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        <h2>订单信息管理</h2>
+        <div id="goodlist">
+            <div class="goodlist_title">
+                <div class="allcheckbox">
+                    <input type="checkbox" id="allcheck">
+                </div>
+                <h3>用户订单信息表</h3>
+            </div>
+            <table class="box_list">
+                <thead class="shoplist_title">
+                    <th class="title_check">
+                        <em></em>
+                    </th>
+                    <th>购买商品id</th>
+                    <th>购买商品名称</th>
+                    <th>购买商品价格</th>
+                    <th>购买商品的数量</th>
+                    <th>购买商品的用户</th>
+                    <th>
+                        操作
+                    </th>
+                </thead>
+                <tbody id="tbody">
+                    <tr class="shop_li">
+                        <!-- <td class="shop_item check_box"><input type="checkbox"></td>
+                        <td class="shop_item shop_id">1</td>
+                        <td class="shop_item shop_name">六位地黄丸</td>
+                        <td class="shop_item shop_price">￥180</td>
+                        <td class="shop_item shop_num">5件</td>
+                        <td class="shop_item shop_user">高先生</td>
+                        <td class="shop_item oprate">
+                            <input type="button" class="editbtn" value="编辑">
+                            <input type="button" class="savebtn" value="保存">
+                            <input type="button" class="delbtn" value="删除">
+                        </td> -->
+                    </tr>
+                </tbody>
+
+            </table>
+            <div class="oprate_btns cleafix">
+                <div id="del">
+                    删除
+                </div>
+                <div class="pagebtn">
+                    <input type="button" value="上一页" id="prevbtn" contenteditable="">
+                    <div class="pages">
+                        <!-- <input type="button" value="1">
+                        <input type="button" value="2">
+                        <input type="button" value="3">
+                        <input type="button" value="4"> -->
+                    </div>
+                    <input type="button" id="nextbtn" value="下一页">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/goodmanage.js">
+
+</script>
+
+</html>

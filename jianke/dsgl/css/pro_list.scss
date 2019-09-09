@@ -1,0 +1,142 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+#box{
+    padding: 0 20px;
+    box-sizing: border-box;
+    h2{
+        font-size: 18px;
+        color: #666;
+        height: 50px;
+        box-sizing: border-box;
+        border-bottom: 2px solid #ee7600;
+        line-height: 50px;
+        font-weight: bold;
+    }
+    .pro_listCont{
+        border-collapse: collapse;
+        .title{
+            width: 100%;
+            font-size: 0;
+            height: 30px;
+            line-height: 30px;
+            .allcheckbox{
+                width: 5%;
+                display: inline-block;
+                vertical-align: middle;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                #allcheck{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+            .pro_inf{
+                width: 95%;
+                display: inline-block;
+                font-size: 18px;
+                font-weight: bold;
+                vertical-align: middle;  
+                 box-sizing: border-box;
+                border: 1px solid #ddd;
+                height: 100%;
+                border-left: none;
+                padding-left: 10px;
+            }
+        }
+        .pro_table{
+            width: 100%;
+            border-collapse: collapse;
+         .pro_title{
+             width: 100%;
+             th{
+                 border: 1px solid #ddd;
+                 height: 30px;
+                 color: #666;
+             }
+             th:nth-child(1){
+                 width: 5%;
+                 em{
+                     background: url(../img/index1.png);
+                     display: inline-block;
+                     height: 20px;
+                     width: 10px;
+                     background-size: 100% 100%;
+                 }
+             }
+         }
+         .pro_con{
+             .pro_li{
+                 .pro_item{
+                     text-align: center;
+                     font-size: 16px;
+                     color: #444;
+                     border: 1px solid #ddd;
+                 }
+                 .check_box{
+                     input{
+                        width: 18px;
+                     height: 18px; 
+                     background: #ccc; 
+                     }
+                    
+                 }
+                 .pro_name{
+                     color: rgb(212, 29, 29);
+                 }
+                 .pro_nowprice{
+                     color: rgb(212, 29, 29);
+                 }
+             }
+         }
+        }
+        .table_btn{
+            margin-top: 30px;
+            box-sizing: border-box;
+            padding: 0 20px;
+            width: 100%;
+            .delbtn{
+                float: left;
+                width: 60px;
+                height: 30px;
+                cursor: pointer;
+                background: #ee7600;
+                // border-radius: 5px;
+                color: #fff;
+                text-align: center;
+                line-height: 30px;  
+                border-radius: 3px;
+                border: 1px solid rgb(80, 67, 67);
+            }
+            .delbtn:hover{
+                background: rgb(126, 199, 83);
+            }
+            .pagebtn{
+                input{
+                    cursor: pointer;
+                    padding: 6px 10px;
+                    color: #fff;
+                    background: rgb(54, 52, 52);
+                    border-radius: 3px;
+                    border: 1px solid rgb(77, 71, 71);
+                }
+                input:hover{
+                    background: rgb(126, 75, 33);
+                }
+                float: right;
+                .page{
+                    display: inline-block;
+                    .active{
+                        color: rgb(206, 194, 33);
+                        background: rgb(126, 75, 33);
+                    }
+                }
+            }
+        }
+    }
+}

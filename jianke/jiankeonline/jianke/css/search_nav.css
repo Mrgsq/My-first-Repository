@@ -1,0 +1,152 @@
+.search_nav {
+  height: 80px;
+  padding: 35px 0 15px;
+  width: 100%;
+}
+
+.search_nav .logo {
+  margin-right: 80px;
+  position: relative;
+}
+
+.search_nav .logo .zhengjian {
+  height: 40px;
+  top: 50px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.search_nav .logo .zhengjian .logo_bottom {
+  transition: transform 0.5s;
+}
+
+.search_nav .logo .zhengjian .logo_bottom li {
+  font-size: 12px;
+  color: #666;
+  height: 30px;
+  line-height: 30px;
+}
+
+.search_nav .logo .zhengjian .logo_bottom li:hover {
+  color: #0691f9;
+}
+
+.search_nav .search_cont {
+  width: 1210px;
+  margin: auto;
+}
+
+.search_nav .search {
+  width: 510px;
+  height: 40px;
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid #0691f9;
+  padding-left: 40px;
+}
+
+.search_nav .search em {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 0;
+  top: 0;
+  text-align: center;
+  line-height: 36px;
+}
+
+.search_nav .search #searchtext {
+  height: 36px;
+  width: 366px;
+}
+
+.search_nav .search #searchbtn {
+  width: 100px;
+  height: 36px;
+  border: none;
+  background: #0691f9;
+  color: #fff;
+}
+
+.search_nav .search .searchbottom {
+  margin-left: -36px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.search_nav .search .searchbottom .searchlist li {
+  color: #666;
+  float: left;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.search_nav .search .searchbottom .searchlist li a {
+  color: #666;
+}
+
+.search_nav .search .searchbottom .searchlist li a:hover {
+  color: #0691f9;
+}
+
+.search_nav p {
+  margin-left: 12px;
+  float: left;
+  width: 30px;
+  line-height: 20px;
+}
+
+.search_nav p a {
+  font-size: 12px;
+  color: #666;
+  line-height: 20px;
+}
+
+.search_nav p a:hover {
+  color: #0691f9;
+}
+
+.search_nav .wuliu {
+  float: left;
+  height: 30px;
+  width: 105px;
+  line-height: 30px;
+  border: 1px solid #e5e5e5;
+  margin-left: 9px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search_nav .wuliu a {
+  font-size: 12px;
+  color: #666;
+}
+
+.search_nav .wuliu:hover a {
+  color: #0691f9;
+}
+
+.search_nav .dingdan {
+  float: left;
+  height: 30px;
+  width: 105px;
+  line-height: 30px;
+  border: 1px solid #e5e5e5;
+  margin-left: 9px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search_nav .dingdan a {
+  font-size: 12px;
+  color: #666;
+}
+
+.search_nav .dingdan:hover a {
+  color: #0691f9;
+}
+
+.search_nav .saoma {
+  float: right;
+  margin-top: -30px;
+}

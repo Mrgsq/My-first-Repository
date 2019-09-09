@@ -1,0 +1,192 @@
+<!--
+ * @Description: In User Settings Edit
+ * @Author: your name
+ * @Date: 2019-08-22 22:10:35
+ * @LastEditTime: 2019-09-06 10:48:35
+ * @LastEditors: Please set LastEditors
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            background: #2e363f;
+
+        }
+
+        #box {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: 426px;
+            width: 546px;
+            transform: translateX(-50%) translateY(-213px);
+            padding: 0 50px;
+            box-sizing: border-box;
+        }
+
+        #box h2 {
+            font-size: 28px;
+            color: #b2dfee;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        #box p {
+            width: 450px;
+            text-align: center;
+            border-bottom: 1px solid #616161;
+            font-size: 12px;
+            color: #808080;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .user {
+            display: flex;
+        }
+
+        .user span {
+            height: 38px;
+            width: 48px;
+            background-image: url(../img/user.png);
+            display: block;
+        }
+
+        .user #username {
+            width: 394px;
+            height: 38px;
+            border: none;
+            box-sizing: border-box;
+            padding-left: 6px;
+        }
+
+        .pwd #password {
+            width: 394px;
+            height: 38px;
+            border: none;
+            box-sizing: border-box;
+            padding-left: 5px;
+        }
+
+        .pwd {
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+
+        }
+
+
+        .con label {
+            display: block;
+            font-size: 12px;
+            color: #b2dfee;
+            margin-top: 10px;
+            margin-bottom: 6px;
+        }
+
+        .pwd span {
+            height: 38px;
+            width: 48px;
+            background-image: url(../img/psw.png);
+            display: inline-block;
+        }
+
+        .btns {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .btns #wangji {
+            height: 28px;
+            width: 94px;
+            border: 1px solid #429db8;
+            background: #49afcd;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .btns #loginbtn {
+            height: 28px;
+            width: 333px;
+            border: 1px solid #52a452;
+            background: #5bb75b;
+            color: #fff;
+            cursor: pointer;
+        }
+
+
+        #box .bottom {
+            border-bottom: none;
+            border-top: 1px solid #616161;
+            margin-top: 20px;
+        }
+
+        /* .user {
+            /* position: relative; */
+        /* } */
+
+        .user .checkuser {
+            position: absolute;
+            right: -50px;
+        }
+
+        /* 
+        .pwd {
+            position: relative;
+        } */
+
+        .pwd .checkpwd {
+            position: absolute;
+            right: -50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <h2>信息管理系统</h2>
+        <p>版权所有 © iProg网络科技有限公司 2015-2018</p>
+        <div class="con">
+            <label for="">登陆账号</label>
+            <div class="user">
+                <span></span>
+                <input type="text" placeholder="admin" id="username">
+                <!-- <h4 class="checkuser">你的账号有误</h4> -->
+            </div>
+            <label for="">登陆密码</label>
+            <div class="pwd">
+                <span></span>
+                <input type="password" id="password">
+                <!-- <h4 class="checkpwd">你的密码有误</h4> -->
+            </div>
+            <div class="btns">
+                <input type="button" value='忘记密码？' id="wangji">
+                <input type="button" value="登录" id="loginbtn">
+            </div>
+            <!-- <span class="bottom"></span> -->
+            <p class="bottom">推荐使用webkit内核浏览器，如chrome等</p>
+        </div>
+    </div>
+</body>
+<script src="../../../common.js"></script>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="../js/login.js"></script>
+
+</html>
